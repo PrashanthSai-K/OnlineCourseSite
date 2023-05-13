@@ -37,30 +37,18 @@
       cursor: pointer;
   }
   
-  /* @media all and (max-width:875px){
+  @media all and (max-width:875px){
       .navbar-container{
           display: flex;
-          justify-content: end;
+          justify-content: space-between;
       }
       .burger{
           display: block;
       }
       .nav-list{
-          padding: 0;
-          margin: 0 ;
-          display: flex;
-          flex-direction: column;
-          margin-top: 90%;
-          background-color: aqua;
-          height: 100vh;
-          gap: 10%;
-          justify-content: start;
-          align-items: center;
-          width: 40%;
-          transform: translateX(100px);
-  
+        display: none;
       }
       
-  } */
+  }
       
   

@@ -12,11 +12,11 @@ function Navbar(){
                     <li className="nav-item">pricing</li>
                     <li className="nav-item">contact</li>
                 </ul>
-                {/* <div className='burger' >
+                <div className='burger' >
                     <div className="line"></div>
                     <div className="line"></div>
                     <div className="line"></div>
-                </div> */}
+                </div>
         </div>
     )
 }
