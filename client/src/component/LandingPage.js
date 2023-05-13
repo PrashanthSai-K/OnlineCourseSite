@@ -19,7 +19,7 @@ export default function LandingPage() {
         <img
           className="landing-img"
           src="./images/landing.png"
-          alt="landing image"
+          alt="landingImage"
         />
       </div>
     </div>
