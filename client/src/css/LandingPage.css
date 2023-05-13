@@ -1,0 +1,122 @@
+.landing-main-container {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+  }
+  
+  .landing-left-container {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  .landing-right-container {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .landing-img {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .contents{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 23%;
+  }
+  .content1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    /* width: 100%; */
+    color: #252b42;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .content2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    /* width: 100%; */
+    padding: 7% 0;
+  }
+  .join-button {
+    padding: 2% 10%;
+    background-color: rgb(147, 48, 208);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: fit-content;
+  }
+  @media all and (max-width:1300px){
+      .contents{
+          margin-left: 10%;
+      }
+  }
+  @media all and (max-width:1150px){
+      .contents{
+          margin-left: 10%;
+      }
+      .landing-right-container{
+          width: 45%;
+      }
+      .landing-left-container{
+          width: 55%;
+      }
+  }
+  @media all and (max-width:1050px){
+      .content1{
+          font-size: 40px;
+          line-height: 60px;
+  
+      }
+      .content2{
+          padding: 5% 0;
+      }
+  }
+  @media screen and (max-width:875px){
+      .landing-main-container{
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          transform: scale(0.7);
+          height: 90vh;
+      }
+      .landing-img{
+        transform: scale(0.8);
+        padding: 0;
+      } 
+      .content1{
+        text-align: center;
+        width: 100vw;
+      }
+      .content2{
+        text-align: center;
+        width: 100vw;
+        padding: 10% 0;
+      }
+      .contents{
+        display: flex;
+        align-items: center;
+      }
+  }
+  
+  
+  
