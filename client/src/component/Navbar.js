@@ -17,6 +17,13 @@ function Navbar(){
                     <div className="line"></div>
                     <div className="line"></div>
                 </div>
+            
+                <ul>
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                </ul>
         </div>
     )
 }
