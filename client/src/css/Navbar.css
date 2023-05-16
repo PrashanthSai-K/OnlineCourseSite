@@ -1,54 +1,75 @@
-.navbar-container {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    align-items: center;
+nav{
+  background-color: aqua;
+  font-size: 28px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  color:darkslateblue;
+  height: 10vh;
+}
+
+nav li{
+  display:inline-block;
+  margin:0 8px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+.logo{
+  font-size:36px;
+  font-weight: bolder;
+}
+
+nav a:hover{
+  color:whitesmoke;
+}
+
+.menu-line{
+  height:3px;
+  width:20px;
+  background-color: darkslateblue;
+  margin-bottom: 3px;
+}
+
+.menu{
+  cursor:pointer;
+  display:none;   
+}
+
+@media all and (max-width:640px){
+  nav{
+      flex-direction: column;
+      position: relative;
+      z-index: 1;
+  }
+
+  nav li{
+      display:block;
+      padding:10px 0;
+  }
+  ul{
+      text-align: center;
+      padding:0;
+      display:none;
+  }
+
+  .logo{
+      align-self:flex-start;
+      margin:10px 0px 0px 30px;
+  }
+
+  .menu{
+      display:block;
+      position:absolute;
+      right:20px;
+      top:25px;
+  }
+
+  .showmenu{
+      display:block;
   }
   
-  .left-nav {
-    font-size: 40px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    color: #252b42;
-    font-weight: 700;
-    font-size: 34px;
-  }
-  
-  .nav-list {
-    display: flex;
-    list-style: none;
-    gap: 15%;
-    margin-left: 30%;
-    width: 70%;
-    color: #2868ce;
-    font-weight: 700;
-    font-size: 18px;
-  }
-  .line {
-    width: 25px;
-    height: 3px;
-    background-color: #000000;
-    margin: 5px;
-  }
-  .burger{
-      margin-right: 6%;
-      display: none;
-      cursor: pointer;
-  }
-  
-  @media all and (max-width:875px){
-      .navbar-container{
-          display: flex;
-          justify-content: space-between;
-      }
-      .burger{
-          display: block;
-      }
-      .nav-list{
-        display: none;
-      }
-      
-  }
-      
-  
+}
