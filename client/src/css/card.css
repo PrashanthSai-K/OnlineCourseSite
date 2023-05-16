@@ -1,6 +1,4 @@
-.card-body{
-    overflow: hidden;
-}
+
 .main-container {
     width: 100%;
     height: 100vh;
@@ -11,11 +9,11 @@
 }
 
 .top-container {
-    height: 25vh;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 12%;
+    align-items: center;
+    padding-bottom: 4%;
 }
 
 .bottom-container {
@@ -132,21 +130,42 @@
 .container-content1{
     color: #96BB7C;
     padding-bottom: 10px;
-    width: 50%;
+    width: 100%;
 }
 .container-content2{
     font-size: 40px;
     font-weight: 900;
     padding-bottom: 20px;
-    width: 50%;
+    width: 100%;
 }
 .container-content3{
     font-size: 13px;
-    width: 50%;
+    width: 100%;
 }
 .container-content4{
     font-size: 13px;
-    width: 50%;
+    width: 100%;
 }
 
+@media screen and (max-width:650px){
+    .bottom-container{
+      transform: scale(0.8);
+    }
+    
+}
+@media screen and (max-width:532px){
+    .card-button1{ 
+      /* padding: 2px 2px 2px 2px;/ */
+      font-size: 15px;
+      min-width: 120px;
+      
+    }
+}
+@media screen and (max-width:400px){
+    .bottom-container{
+      transform: scale(0.7);
+      margin-top: -20%;
+    }
+
+}
 
