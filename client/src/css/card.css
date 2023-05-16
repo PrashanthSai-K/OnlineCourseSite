@@ -120,7 +120,7 @@
     transition: ease-in-out all 0.5s;
     font-weight: 900;
     width: 40%;
-    
+    cursor: pointer;
 }
 
 .card-button1:hover {
