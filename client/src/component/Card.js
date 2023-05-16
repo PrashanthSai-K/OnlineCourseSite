@@ -6,10 +6,10 @@ function Card() {
     < div className='card-body'>
       <div className='main-container'>
         <div className='top-container'>
+          <center>
           <div className='container-content1'>Practice advice</div>
           <div className='container-content2'>Our Experts Teacher</div>
-          <div className='container-content3'>Problems trying to resolve the conflict between</div>
-          <div className='container-content4'>the two major realms of Classical physics: Newtonian mechanics </div>
+          </center>
         </div>
         <div className='bottom-container'>
           <div className='card'>
