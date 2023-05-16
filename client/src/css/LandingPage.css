@@ -24,6 +24,7 @@
     width: 500px;
     height: 500px;
     transition: all ease-in-out 0.5s;
+    cursor: pointer;
   }
   
   .contents{
@@ -119,10 +120,12 @@
       .landing-img{
         transform: scale(0.8);
         padding: 0;
+        
       } 
       .landing-img:hover{
         transform: scale(0.8);
         padding: 0;
+        
       } 
       .content1{
         text-align: center;
