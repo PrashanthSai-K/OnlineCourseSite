@@ -59,3 +59,8 @@
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
   }
+  @media screen and (max-width:500px) {
+    .flip-card{
+      zoom: 0.6;
+    }
+  }

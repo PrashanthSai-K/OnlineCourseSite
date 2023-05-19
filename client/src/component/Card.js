@@ -31,7 +31,7 @@ function Card() {
               <img className="card-img2" src="./images/img2.png" alt="" />
             </div>
             <div className="right-card">
-              <div className="card-content1">2,769 online courses </div>
+              <div className="card-content1">Online Courses </div>
               <div className="card-content2">Our Popular Courses</div>
               <div className="card-content3">
                 We focus on ergonomics and meeting you where you work. It's only

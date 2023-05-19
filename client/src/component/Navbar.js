@@ -18,13 +18,13 @@ const toggle = () => {
   return (
     <nav>
     <div class="logo">
-        <a href="">Corsera</a>
+        <a href="#landingSection">Corsera</a>
     </div>
     <ul className="right-nav" ref={navref}>
-        <li><a className="nav-item" href="">Home</a></li>
-        <li><a className="nav-item" href="">Services</a></li>
-        <li><a className="nav-item" href="">About</a></li>
-        <li><a className="nav-item" href="">Contact</a></li>
+        <li><a className="nav-item" href="#landingSection">Home</a></li>
+        <li><a className="nav-item" href="#cardSection">Services</a></li>
+        <li><a className="nav-item" href="#courseSection">Course</a></li>
+        <li><a className="nav-item" href="#aboutSection">About</a></li>
     </ul>
     <div class="menu" onClick={toggle}>
         <div class="menu-line"></div>

@@ -9,11 +9,19 @@ function App() {
 
   return (
     <>
+      <section id='landingSection'>
       <Navbar/>
       <LandingPage/>
+      </section>
+      <section id='cardSection'>
       <Card/>
+      </section>
+      <section id='courseSection'>
       <CoursePage/>
+      </section>
+      <section id='aboutSection' >
       <About/>
+      </section>
     </>
   )
 }
