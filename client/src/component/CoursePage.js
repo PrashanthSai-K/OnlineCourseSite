@@ -8,11 +8,12 @@ export default function CoursePage() {
 
   useEffect(() => {
     async function fetchdata() {
-      const response = await axios("http://localhost:5000/api/");
+      const response = await axios(
+        "https://zyf4oox0tc.execute-api.us-east-1.amazonaws.com/dev/api/"
+      );
       setData(response.data);
     }
     fetchdata();
-    console.log(data);
   });
 
   return (
